@@ -1,0 +1,82 @@
+/* 1. Pengaturan umum */ 
+* { box-sizing: border-box; } 
+body {  
+     margin: 0;   font-family: "Poppins", Arial, sans-serif; 
+     color: #8EA66B;  
+     line-height: 1.6;  
+     background-color: #FFF4DE; 
+    } 
+
+/* 2. Header dan menu */
+ header {  
+     background-color: #FFF4DE;  
+     color: #8EA66B;  
+     text-align: center;   
+     padding: 32px 16px; 
+    }
+    header h1 { margin: 0; font-size: 40px; } 
+    nav { margin-top: 16px; }
+    nav a {   
+        color: #8EA66B;   
+        text-decoration: none;   
+        font-weight: 600;   
+        margin: 0 12px; 
+    } 
+    nav a:hover { text-decoration: underline; }  
+
+/* 3. Isi halaman */ 
+main { max-width: 960px; margin: 0 auto; padding: 16px; } 
+section {  
+    background-color: #FFF4DE;   
+    border: 1px solid #befcc1;   
+    border-radius: 12px;   
+    padding: 24px;   
+    margin: 24px 0; 
+} 
+h2 {   
+    color: #8EA66B;   
+    border-bottom: 3px solid #bdf08d;   
+    padding-bottom: 8px; 
+} 
+img { max-width: 100%; height: auto; border-radius: 8px; } 
+/*4. Tabel */
+table { width: 100%; border-collapse: collapse; }
+th, td { border: 1px solid #bdf08d; padding: 10px; text-align: left; }
+th { background-color: #FFF4DE; }
+
+/*5. Form */
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #befcc1;
+    border-radius: 6px;
+    font-family: inherit;
+}
+button{
+    background-color: #FFF4DE;
+    color: #8EA66B;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 24px;
+    cursor: pointer;
+}
+button:hover { background-color: #FFF4DE; }
+
+/* 6. Tombol WhatsAapp */
+.tombol-wa {
+    display: inline-block;
+    background-color: #FFF4DE;
+    color: #8EA66B;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 30px;
+}
+
+/* 7. Footer */
+footer {
+    background-color: #FFF4DE;
+    color: #8EA66B;
+    text-align: center;
+    padding: 16px;
+}
